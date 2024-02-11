@@ -1,3 +1,16 @@
+<!-- Clone this repository using bash terminal: -->
+
+    git clone https://github.com/osamaSale/laravel.git
+
+<!--End clone area -->
+<!-- Clone this repository using bash terminal: -->
+
+    <strong> You can login Or register</strong>
+    <br>
+    <pre>Email : <strong>osama.mohamad.salem@gmail.com</strong><br>Password : <strong>45h4zcX5Wd.Fh6$ </strong></pre>
+
+<!--End clone area -->
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
