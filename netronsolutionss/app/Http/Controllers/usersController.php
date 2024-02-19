@@ -108,7 +108,6 @@ class usersController extends Controller
             'suffixname' => 'required',
             'username' => 'required',
             'email' => 'required',
-            'password' => 'required|min:6',
         ]);
         $fileName = '';
 

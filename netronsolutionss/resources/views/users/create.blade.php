@@ -28,9 +28,9 @@
                                         value="0" />
                                 </div>
                                 <div class="form-outline mb-4">
-                                    <select class="form-select" aria-label="Default select example" name="prefixname">
+                                    <select class="form-control w-100" aria-label="Default select example" name="prefixname">
                                         <option value="Mr">Mr</option>
-                                        <option value="Mrs,">Mrs</option>
+                                        <option value="Mrs">Mrs</option>
                                         <option value="Ms">Ms</option>
                                     </select>
                                     @error('prefixname')

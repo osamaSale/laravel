@@ -9,21 +9,21 @@
             @endif
             <form method="POST" action="{{ route('users.store') }}" enctype="multipart/form-data">
                 @csrf
-
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                         <div class="card shadow-sm p-3">
                             <div class="card-body">
+                                
                                 <div class="form-outline mb-4 text-center">
                                     <h3 class="pb-2">Register</h3>
                                     <small class="text-body-secondary">
                                         If you have an account, sign in with your email address.
                                     </small>
                                 </div>
-                                <input type="hidden" name="type" class="form-control"  value="user"/>
-                                <input type="hidden" name="trashedd" class="form-control"  value="0"/>
+                                <input type="hidden" name="type" class="form-control" value="user" />
+                                <input type="hidden" name="trashedd" class="form-control" value="0" />
                                 <div class="form-outline mb-4">
-                                    <select class="form-select" aria-label="Default select example" name="prefixname">
+                                    <select class="form-control" aria-label="Default select example" name="prefixname">
                                         <option selected>Open this select menu</option>
                                         <option value="Mr">Mr</option>
                                         <option value="Mrs">Mrs</option>
@@ -86,7 +86,7 @@
                                             <input type="file" name="photo" class="form-control" />
                                         </div>
                                     </div>
-                                   
+
                                 </div>
 
                                 <button type="submit" class="btn btn-primary w-100">

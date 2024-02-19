@@ -85,7 +85,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="form-outline mb-4">
-                                        <select disabled class="form-select" aria-label="Default select example"
+                                        <select disabled class="form-control" aria-label="Default select example"
                                             name="prefixname" value="{{ $user->prefixname }}">
                                             <option value="Mr">Mr</option>
                                             <option value="Mrs">Mrs</option>

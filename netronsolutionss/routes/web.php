@@ -17,7 +17,6 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 */
 
 Route::get('/', usersController::class . '@login')->name('users.login');
-Route::get('/register', usersController::class . '@register')->name('users.register');
 Route::get('/dashboard', usersController::class . '@index')->name('users.index')->middleware(['auth', 'verified']);
 Route::middleware('auth')->group(function () {
 Route::get('/users/create', usersController::class . '@create')->name('users.create');

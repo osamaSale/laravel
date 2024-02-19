@@ -29,7 +29,7 @@
                                         value="0" />
                                 </div>
                                 <div class="form-outline mb-4">
-                                    <select class="form-select" aria-label="Default select example" name="prefixname"
+                                    <select class="form-control" aria-label="Default select example" name="prefixname"
                                         value="{{ $user->prefixname }}">
                                         <option value="Mr">Mr</option>
                                         <option value="Mrs">Mrs</option>
